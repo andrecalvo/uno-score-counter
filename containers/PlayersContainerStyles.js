@@ -100,7 +100,8 @@ export default StyleSheet.create({
     alignItems: "center",
     alignContent: "center",
     justifyContent: "center",
-    marginTop: 20
+    marginTop: 20,
+    marginBottom: 20
   },
   clearContainer: { flex: 1, alignItems: "center" }
 });

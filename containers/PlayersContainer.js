@@ -127,6 +127,7 @@ class PlayersContainer extends Component {
                   Current Score: {item.points}
                 </Text>
                 <Input
+                  keyboardType={"numbers-and-punctuation"}
                   placeholder={"0"}
                   styles={styles.inputNumber}
                   index={index}
@@ -151,15 +152,15 @@ class PlayersContainer extends Component {
               </View>
             </View>
           )}
+          <Input
+            autoCorrect={false}
+            placeholder={"Add a player..."}
+            styles={styles.inputName}
+            onSubmit={args => {
+              addPlayer(args.text);
+            }}
+          />
         </ScrollView>
-        <Input
-          autoCorrect={false}
-          placeholder={"Add a player..."}
-          styles={styles.inputName}
-          onSubmit={args => {
-            addPlayer(args.text);
-          }}
-        />
       </Animated.View>
     );
   }

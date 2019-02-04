@@ -4,7 +4,7 @@ A quick and dirty project to try out react native for the first time. Basically 
 
 The project uses Creat React Native as a starting point with redux added. I didn't use any component libraries etc as it was just for basic experimenting.
 
-![Alt Text](https://media.giphy.com/media/5vT8nJ8WispRnAGzAd/giphy.gif)
+![Demo gif](https://media.giphy.com/media/PhZ70dAAMwZguXlTbn/giphy.gif)
 
 Use like a regular CRAN app.
 `npm install`

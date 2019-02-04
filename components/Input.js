@@ -8,10 +8,11 @@ export default class Input extends Component {
   }
 
   render() {
-    const { onSubmit, index, placeholder, styles } = this.props;
+    const { onSubmit, index, placeholder, styles, keyboardType } = this.props;
     const { text } = this.state;
     return (
       <TextInput
+        keyboardType={keyboardType || "default"}
         style={styles}
         ref={input => {
           this.textInput = input;
